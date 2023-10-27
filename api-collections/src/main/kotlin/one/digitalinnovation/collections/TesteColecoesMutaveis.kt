@@ -1,12 +1,12 @@
 package one.digitalinnovation.collections
 
 fun main() {
-    val joao = Funcionario("Joao", 2000.0, "CLT")
+    val naruto = Funcionario("Naruto", 2000.0, "CLT")
     val pedro = Funcionario("Pedro", 1500.0, "PJ")
     val maria = Funcionario("Maria", 4000.0, "CLT")
 
     println("--------- LIST ---------")
-    val funcionarios = mutableListOf(joao, maria)
+    val funcionarios = mutableListOf(naruto, maria)
     funcionarios.forEach { println(it) }
 
     println("------------------")
@@ -14,11 +14,11 @@ fun main() {
     funcionarios.forEach { println(it) }
 
     println("------------------")
-    funcionarios.remove(joao)
+    funcionarios.remove(naruto)
     funcionarios.forEach { println(it) }
 
     println("--------- SET ---------")
-    val funcionarioSet = mutableSetOf(joao)
+    val funcionarioSet = mutableSetOf(naruto)
     funcionarioSet.forEach { println(it) }
 
     println("------------------")
